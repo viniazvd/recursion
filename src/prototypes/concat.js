@@ -1,4 +1,4 @@
-const { empty } = require('../utils')
+const empty = require('../utils/empty')
 
 const concat = (array1, array2) => {
   return empty(array1)
