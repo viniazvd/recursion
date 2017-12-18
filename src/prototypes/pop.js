@@ -1,4 +1,4 @@
-const { empty } = require('../utils')
+const empty = require('../utils/empty')
 
 const pop = (array) => {
   return empty(array)
