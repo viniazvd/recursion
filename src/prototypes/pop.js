@@ -1,5 +1,7 @@
+const { empty } = require('../utils')
+
 const pop = (array) => {
-  return !array.length
+  return empty(array)
   ? []
   : array.length > 1 ? [array[0]].concat(pop(array.slice(1))) : []
 }
