@@ -11,5 +11,5 @@ describe('fill', () => {
 
   it('when the value is also inside', () => {
     expect(fill([1, 1, 1], 1)).toEqual([1, 1, 1])
-  });
+  })
 })
