@@ -7,4 +7,4 @@ const map = (fn, array) => {
     : [fn(array[0])].concat(map(fn, array.slice(1)))
 }
 
-module.exports = { map }
+module.exports = map

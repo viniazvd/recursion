@@ -1,4 +1,4 @@
-const { map } = require('../prototypes/map')
+const map = require('../prototypes/map')
 
 describe('map', () => {
   it('empty array', () => {

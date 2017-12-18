@@ -1,11 +1,6 @@
-// const { len } = require('../utils')
-const { every } = require('../prototypes/every')
+const every = require('../prototypes/every')
 
 describe('every', () => {
-  // it('empty array', () => {
-  //   expect(len([])).toEqual(0)
-  // })
-
   it('when is valid', () => {
     const lessThan = x => x < 6
 

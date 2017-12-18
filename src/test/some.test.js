@@ -1,11 +1,6 @@
-// const { len } = require('../utils')
-const { some } = require('../prototypes/some')
+const some = require('../prototypes/some')
 
 describe('some', () => {
-  // it('empty array', () => {
-  //   expect(len([])).toEqual(0)
-  // })
-
   it('when is valid', () => {
     const fn = x => x < 4
 

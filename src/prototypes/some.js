@@ -10,4 +10,4 @@ const some = (fn, array) => {
   : (fn(array[0]) ? true : some(fn, array.slice(1)))
 }
 
-module.exports = { some }
+module.exports = some

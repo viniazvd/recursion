@@ -6,4 +6,4 @@ const every = (fn, array) => {
   : (fn(array[0]) ? every(fn, array.slice(1)) : false)
 }
 
-module.exports = { every }
+module.exports = every
