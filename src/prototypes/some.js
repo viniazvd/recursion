@@ -1,3 +1,5 @@
+const { empty } = require('../utils')
+
 const some = (fn, array) => {
   if (typeof fn !== 'function') throw new TypeError()
 
@@ -5,7 +7,7 @@ const some = (fn, array) => {
   // ? []
   // : (fn(array[0]) ? [true] : [false]).concat(some(fn, array.slice(1))).includes(true)
 
-  return !array.length
+  return empty(array)
   ? false
   : (fn(array[0]) ? true : some(fn, array.slice(1)))
 }
