@@ -1,4 +1,4 @@
-const { len } = require('../utils')
+const len = require('../prototypes/len')
 const { filter, countRepeated } = require('../prototypes/filter')
 
 describe('len', () => {
