@@ -1,4 +1,4 @@
-const { empty } = require('../utils')
+const empty = require('../utils/empty')
 
 const map = (fn, array) => {
   if (typeof fn !== 'function') throw new TypeError()
