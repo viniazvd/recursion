@@ -9,7 +9,7 @@ describe('map', () => {
 })
 
 describe('map', () => {
-  it('empty array', () => {
+  it('multiply data by 2', () => {
     const multiply2 = x => x * 2
 
     expect(map(multiply2, [1, 2, 3])).toEqual([2, 4, 6])
