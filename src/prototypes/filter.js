@@ -1,6 +1,5 @@
-const { empty } = require('../utils')
-
-const { len } = require('../utils')
+const empty = require('../utils/empty')
+const len = require('./len')
 
 const isEqual = x => x === 10
 
