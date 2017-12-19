@@ -12,4 +12,8 @@ describe('indexOf', () => {
   it('no founded value', () => {
     expect(indexOf(7, [1, 2, 3, 4, 5, 6])).toEqual(-1)
   })
+
+  it('find correct index when the value isn\'t the index', () => {
+    expect(indexOf(12, [10, 11, 12, 13, 14])).toEqual(2)
+  })
 })
