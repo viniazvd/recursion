@@ -1,9 +1,9 @@
-const empty = require('../utils/empty')
+const find = require('./find')
 
 const indexOf = (value, array) => {
-  return empty(array)
-    ? -1
-    : array[0] === value ? array[0] : indexOf(value, array.slice(1))
+  return !find(x => x === value, array)
+  ? -1
+  : array.findIndex(x => x === value)
 }
 
 module.exports = indexOf
