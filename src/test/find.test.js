@@ -5,7 +5,7 @@ describe('find', () => {
   const find7 = x => x === 7
 
   it('empty array', () => {
-    expect(find(find2, [])).toEqual([])
+    expect(find(find2, [])).toEqual(undefined)
   })
 
   it('multiply data by 2', () => {
@@ -13,6 +13,6 @@ describe('find', () => {
   })
 
   it('no founded value', () => {
-    expect(find(find7, [1, 2, 3, 4, 5, 6])).toEqual([])
+    expect(find(find7, [1, 2, 3, 4, 5, 6])).toEqual(undefined)
   })
 })
