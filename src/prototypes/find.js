@@ -5,7 +5,7 @@ const find = (fn, array) => {
 
   return empty(array)
     ? []
-    : fn(array[0]) ? [array[0]] : [array[0]].concat(find(fn, array.slice(1)))[1]
+    : fn(array[0]) ? array[0] : find(fn, array.slice(1))
 }
 
 module.exports = find
