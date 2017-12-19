@@ -9,6 +9,10 @@ describe('indexOf', () => {
     expect(indexOf(2, [1, 2, 3, 4, 5, 6])).toEqual(1)
   })
 
+  it('find 2 in array with tow numbers 2', () => {
+    expect(indexOf(2, [1, 2, 3, 4, 5, 6, 2])).toEqual(1)
+  })
+
   it('no founded value', () => {
     expect(indexOf(7, [1, 2, 3, 4, 5, 6])).toEqual(-1)
   })
