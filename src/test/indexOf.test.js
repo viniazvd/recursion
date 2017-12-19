@@ -6,7 +6,7 @@ describe('indexOf', () => {
   })
 
   it('find 2 in array', () => {
-    expect(indexOf(2, [1, 2, 3, 4, 5, 6])).toEqual(2)
+    expect(indexOf(2, [1, 2, 3, 4, 5, 6])).toEqual(1)
   })
 
   it('no founded value', () => {
