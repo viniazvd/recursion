@@ -8,9 +8,7 @@ const fill = (array, value) => {
 }
 
 const fill2 = (array, value) => {
-  return empty(array)
-  ? []
-  : map(x => (x - x) + value, array)
+  return map(x => value, array)
 }
 
 module.exports = { fill, fill2 }
