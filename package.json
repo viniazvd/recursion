@@ -1,12 +1,12 @@
 {
-  "name": "assessment_math",
+  "name": "recursion",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose"
   },
-  "author": "Vinicius Azevedo",
+  "author": "João Ferreira @lubien / Vinicius Azevedo @viniazvd",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.0",
