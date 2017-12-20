@@ -1,7 +1,5 @@
 const map = require('./map')
 
-const fill = (array, value) => {
-  return map(x => value, array)
-}
+const fill = (array, value) => map(x => value, array)
 
 module.exports = fill
